@@ -1,0 +1,30 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Generated database / logs
+chroma_db/
+logs/
+*.log
+
+# Generated files
+output.jpg
+output/
+runs/
+
+# YOLO downloaded model
+yolov8n.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
